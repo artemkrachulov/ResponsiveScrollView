@@ -23,12 +23,13 @@ class ViewController: UIViewController {
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     
-    // Embed Details View to Scroll View
+    // Load xib to the view
     scrollViewContent = (NSBundle.mainBundle().loadNibNamed("View", owner: self, options: nil).first) as! UIView
   }
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
     // Do any additional setup after loading the view, typically from a nib.
     
     scrollView.addSubview(scrollViewContent)
@@ -42,19 +43,23 @@ class ViewController: UIViewController {
   override func viewWillLayoutSubviews() {
     super.viewWillLayoutSubviews()
     
-    // Get Height
+    // 1. Set new size to content View
     scrollViewContent.frame.size = scrollView.frame.size
+    
+    // 2. Layout subviews to get container height
     scrollViewContent.layoutSubviews()
     
-    // Update
-    scrollView.contentSize =  scrollViewContentInner.frame.size
-    scrollViewContent.subviews.first?.frame.size.height = scrollViewContentInner.frame.size.height
+    // 3. Set Scroll view content size
+    scrollView.contentSize = scrollViewContentInner.frame.size
+    
+    // 4. Update content View height
+     scrollViewContent.frame.size.height = scrollViewContentInner.frame.size.height
   }
   
   override func viewDidLayoutSubviews() {
     super.viewDidLayoutSubviews()
     
-    // Update
+    // Update content View height totally
     scrollViewContent.frame.size.height = scrollViewContentInner.frame.size.height
   }
 }
