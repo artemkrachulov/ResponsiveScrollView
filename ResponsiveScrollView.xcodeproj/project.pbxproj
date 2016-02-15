@@ -14,7 +14,9 @@
 		4301D48E1BB7D3F60018C909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4301D48C1BB7D3F60018C909 /* LaunchScreen.storyboard */; };
 		4301D4991BB7D3F60018C909 /* ResponsiveScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301D4981BB7D3F60018C909 /* ResponsiveScrollViewTests.swift */; };
 		4301D4A41BB7D3F60018C909 /* ResponsiveScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301D4A31BB7D3F60018C909 /* ResponsiveScrollViewUITests.swift */; };
-		4301D4B21BB7D5950018C909 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4301D4B11BB7D5950018C909 /* View.xib */; settings = {ASSET_TAGS = (); }; };
+		4301D4B21BB7D5950018C909 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4301D4B11BB7D5950018C909 /* View.xib */; };
+		4302B6721C72050F00160C62 /* UIView+loadFromXibNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4302B6711C72050F00160C62 /* UIView+loadFromXibNib.swift */; };
+		4302B6741C721E4700160C62 /* Vieww.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4302B6731C721E4700160C62 /* Vieww.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4301D4A31BB7D3F60018C909 /* ResponsiveScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveScrollViewUITests.swift; sourceTree = "<group>"; };
 		4301D4A51BB7D3F60018C909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4301D4B11BB7D5950018C909 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		4302B6711C72050F00160C62 /* UIView+loadFromXibNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+loadFromXibNib.swift"; path = "submodules/UIView-loadFromXibNib/src/UIView+loadFromXibNib.swift"; sourceTree = "<group>"; };
+		4302B6731C721E4700160C62 /* Vieww.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Vieww.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		4301D4771BB7D3F60018C909 = {
 			isa = PBXGroup;
 			children = (
+				4302B6701C7204FD00160C62 /* Submodules */,
 				4301D4821BB7D3F60018C909 /* ResponsiveScrollView */,
 				4301D4971BB7D3F60018C909 /* ResponsiveScrollViewTests */,
 				4301D4A21BB7D3F60018C909 /* ResponsiveScrollViewUITests */,
@@ -103,6 +108,7 @@
 				4301D4851BB7D3F60018C909 /* ViewController.swift */,
 				4301D4871BB7D3F60018C909 /* Main.storyboard */,
 				4301D4B11BB7D5950018C909 /* View.xib */,
+				4302B6731C721E4700160C62 /* Vieww.xib */,
 				4301D48A1BB7D3F60018C909 /* Assets.xcassets */,
 				4301D48C1BB7D3F60018C909 /* LaunchScreen.storyboard */,
 				4301D48F1BB7D3F60018C909 /* Info.plist */,
@@ -126,6 +132,14 @@
 				4301D4A51BB7D3F60018C909 /* Info.plist */,
 			);
 			path = ResponsiveScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		4302B6701C7204FD00160C62 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				4302B6711C72050F00160C62 /* UIView+loadFromXibNib.swift */,
+			);
+			name = Submodules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4302B6741C721E4700160C62 /* Vieww.xib in Resources */,
 				4301D4B21BB7D5950018C909 /* View.xib in Resources */,
 				4301D48E1BB7D3F60018C909 /* LaunchScreen.storyboard in Resources */,
 				4301D48B1BB7D3F60018C909 /* Assets.xcassets in Resources */,
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4301D4861BB7D3F60018C909 /* ViewController.swift in Sources */,
+				4302B6721C72050F00160C62 /* UIView+loadFromXibNib.swift in Sources */,
 				4301D4841BB7D3F60018C909 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +418,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ResponsiveScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = artem.krachulov.ResponsiveScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,7 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ResponsiveScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = artem.krachulov.ResponsiveScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +507,7 @@
 				4301D4AA1BB7D3F60018C909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4301D4AB1BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "ResponsiveScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +516,7 @@
 				4301D4AD1BB7D3F60018C909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4301D4AE1BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "ResponsiveScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +525,7 @@
 				4301D4B01BB7D3F60018C909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

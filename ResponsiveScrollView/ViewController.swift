@@ -24,7 +24,20 @@ class ViewController: UIViewController {
     super.init(coder: aDecoder)
     
     // Load xib to the view
-    scrollViewContent = (NSBundle.mainBundle().loadNibNamed("View", owner: self, options: nil).first) as! UIView
+//    scrollViewContent = (NSBundle.mainBundle().loadNibNamed("View", owner: self, options: nil).first) as! UIView
+		
+		scrollViewContent = UIView.instanceFromNib("View", owner: self, bundle: nil)
+
+//		scrollViewContent = UIScrollView()
+		
+//		 scrollViewContent.loadFromNib("View", bundle: NSBundle.mainBundle(), id: 0)
+		
+//		view.loadFromNib(nil, bundle: NSBundle.mainBundle())
+		
+		
+/* view.loadFromNib(nil, bundle: NSBundle.mainBundle()) */
+		
+//		scrollViewContent = UIView.instanceFromNib()
   }
   
   override func viewDidLoad() {
