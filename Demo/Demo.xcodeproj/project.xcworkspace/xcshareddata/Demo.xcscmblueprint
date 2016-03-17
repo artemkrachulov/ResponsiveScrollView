@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "31997CCC2A9CB5D045D9F79EAC10CDFF6A8B30E9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "31997CCC2A9CB5D045D9F79EAC10CDFF6A8B30E9" : 0,
+    "9517F49643BCAEBFF187DC7C816A074D3F831F5B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C5F0DB6C-30DD-4B98-A36F-57CB84976CEB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "31997CCC2A9CB5D045D9F79EAC10CDFF6A8B30E9" : "ResponsiveScrollView\/",
+    "9517F49643BCAEBFF187DC7C816A074D3F831F5B" : "ResponsiveScrollView\/Vendor\/UIView-loadFromXibNib\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo\/Demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/artemkrachulov\/ResponsiveScrollView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31997CCC2A9CB5D045D9F79EAC10CDFF6A8B30E9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/artemkrachulov\/UIView-loadFromXibNib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9517F49643BCAEBFF187DC7C816A074D3F831F5B"
+    }
+  ]
+}

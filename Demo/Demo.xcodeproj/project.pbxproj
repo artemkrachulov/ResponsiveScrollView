@@ -15,8 +15,8 @@
 		4301D4991BB7D3F60018C909 /* ResponsiveScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301D4981BB7D3F60018C909 /* ResponsiveScrollViewTests.swift */; };
 		4301D4A41BB7D3F60018C909 /* ResponsiveScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4301D4A31BB7D3F60018C909 /* ResponsiveScrollViewUITests.swift */; };
 		4301D4B21BB7D5950018C909 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4301D4B11BB7D5950018C909 /* View.xib */; };
-		4302B6721C72050F00160C62 /* UIView+loadFromXibNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4302B6711C72050F00160C62 /* UIView+loadFromXibNib.swift */; };
 		4302B6741C721E4700160C62 /* Vieww.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4302B6731C721E4700160C62 /* Vieww.xib */; };
+		43E79C2C1C9AAD9200C00B77 /* UIView+loadFromXibNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E79C2B1C9AAD9200C00B77 /* UIView+loadFromXibNib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4301D4801BB7D3F60018C909 /* ResponsiveScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResponsiveScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4301D4801BB7D3F60018C909 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4301D4831BB7D3F60018C909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4301D4851BB7D3F60018C909 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4301D4881BB7D3F60018C909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4301D48A1BB7D3F60018C909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4301D48D1BB7D3F60018C909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4301D48F1BB7D3F60018C909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4301D4941BB7D3F60018C909 /* ResponsiveScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResponsiveScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4301D4941BB7D3F60018C909 /* Demo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4301D4981BB7D3F60018C909 /* ResponsiveScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveScrollViewTests.swift; sourceTree = "<group>"; };
 		4301D49A1BB7D3F60018C909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4301D49F1BB7D3F60018C909 /* ResponsiveScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResponsiveScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4301D49F1BB7D3F60018C909 /* Demo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4301D4A31BB7D3F60018C909 /* ResponsiveScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveScrollViewUITests.swift; sourceTree = "<group>"; };
 		4301D4A51BB7D3F60018C909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4301D4B11BB7D5950018C909 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
-		4302B6711C72050F00160C62 /* UIView+loadFromXibNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+loadFromXibNib.swift"; path = "submodules/UIView-loadFromXibNib/src/UIView+loadFromXibNib.swift"; sourceTree = "<group>"; };
 		4302B6731C721E4700160C62 /* Vieww.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Vieww.xib; sourceTree = "<group>"; };
+		43E79C2B1C9AAD9200C00B77 /* UIView+loadFromXibNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+loadFromXibNib.swift"; path = "../Vendor/UIView-loadFromXibNib/Source/UIView+loadFromXibNib.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +83,10 @@
 		4301D4771BB7D3F60018C909 = {
 			isa = PBXGroup;
 			children = (
-				4302B6701C7204FD00160C62 /* Submodules */,
-				4301D4821BB7D3F60018C909 /* ResponsiveScrollView */,
-				4301D4971BB7D3F60018C909 /* ResponsiveScrollViewTests */,
-				4301D4A21BB7D3F60018C909 /* ResponsiveScrollViewUITests */,
+				4302B6701C7204FD00160C62 /* Vendor */,
+				4301D4821BB7D3F60018C909 /* Demo */,
+				4301D4971BB7D3F60018C909 /* DemoTests */,
+				4301D4A21BB7D3F60018C909 /* DemoUITests */,
 				4301D4811BB7D3F60018C909 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,14 +94,14 @@
 		4301D4811BB7D3F60018C909 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4301D4801BB7D3F60018C909 /* ResponsiveScrollView.app */,
-				4301D4941BB7D3F60018C909 /* ResponsiveScrollViewTests.xctest */,
-				4301D49F1BB7D3F60018C909 /* ResponsiveScrollViewUITests.xctest */,
+				4301D4801BB7D3F60018C909 /* Demo.app */,
+				4301D4941BB7D3F60018C909 /* Demo.xctest */,
+				4301D49F1BB7D3F60018C909 /* Demo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4301D4821BB7D3F60018C909 /* ResponsiveScrollView */ = {
+		4301D4821BB7D3F60018C909 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				4301D4831BB7D3F60018C909 /* AppDelegate.swift */,
@@ -113,41 +113,41 @@
 				4301D48C1BB7D3F60018C909 /* LaunchScreen.storyboard */,
 				4301D48F1BB7D3F60018C909 /* Info.plist */,
 			);
-			path = ResponsiveScrollView;
+			path = Demo;
 			sourceTree = "<group>";
 		};
-		4301D4971BB7D3F60018C909 /* ResponsiveScrollViewTests */ = {
+		4301D4971BB7D3F60018C909 /* DemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				4301D4981BB7D3F60018C909 /* ResponsiveScrollViewTests.swift */,
 				4301D49A1BB7D3F60018C909 /* Info.plist */,
 			);
-			path = ResponsiveScrollViewTests;
+			path = DemoTests;
 			sourceTree = "<group>";
 		};
-		4301D4A21BB7D3F60018C909 /* ResponsiveScrollViewUITests */ = {
+		4301D4A21BB7D3F60018C909 /* DemoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				4301D4A31BB7D3F60018C909 /* ResponsiveScrollViewUITests.swift */,
 				4301D4A51BB7D3F60018C909 /* Info.plist */,
 			);
-			path = ResponsiveScrollViewUITests;
+			path = DemoUITests;
 			sourceTree = "<group>";
 		};
-		4302B6701C7204FD00160C62 /* Submodules */ = {
+		4302B6701C7204FD00160C62 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				4302B6711C72050F00160C62 /* UIView+loadFromXibNib.swift */,
+				43E79C2B1C9AAD9200C00B77 /* UIView+loadFromXibNib.swift */,
 			);
-			name = Submodules;
+			name = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4301D47F1BB7D3F60018C909 /* ResponsiveScrollView */ = {
+		4301D47F1BB7D3F60018C909 /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4301D4A81BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "ResponsiveScrollView" */;
+			buildConfigurationList = 4301D4A81BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
 				4301D47C1BB7D3F60018C909 /* Sources */,
 				4301D47D1BB7D3F60018C909 /* Frameworks */,
@@ -157,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = ResponsiveScrollView;
+			name = Demo;
 			productName = ResponsiveScrollView;
-			productReference = 4301D4801BB7D3F60018C909 /* ResponsiveScrollView.app */;
+			productReference = 4301D4801BB7D3F60018C909 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4301D4931BB7D3F60018C909 /* ResponsiveScrollViewTests */ = {
+		4301D4931BB7D3F60018C909 /* DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4301D4AB1BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "ResponsiveScrollViewTests" */;
+			buildConfigurationList = 4301D4AB1BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "DemoTests" */;
 			buildPhases = (
 				4301D4901BB7D3F60018C909 /* Sources */,
 				4301D4911BB7D3F60018C909 /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				4301D4961BB7D3F60018C909 /* PBXTargetDependency */,
 			);
-			name = ResponsiveScrollViewTests;
+			name = DemoTests;
 			productName = ResponsiveScrollViewTests;
-			productReference = 4301D4941BB7D3F60018C909 /* ResponsiveScrollViewTests.xctest */;
+			productReference = 4301D4941BB7D3F60018C909 /* Demo.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4301D49E1BB7D3F60018C909 /* ResponsiveScrollViewUITests */ = {
+		4301D49E1BB7D3F60018C909 /* DemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4301D4AE1BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "ResponsiveScrollViewUITests" */;
+			buildConfigurationList = 4301D4AE1BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "DemoUITests" */;
 			buildPhases = (
 				4301D49B1BB7D3F60018C909 /* Sources */,
 				4301D49C1BB7D3F60018C909 /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				4301D4A11BB7D3F60018C909 /* PBXTargetDependency */,
 			);
-			name = ResponsiveScrollViewUITests;
+			name = DemoUITests;
 			productName = ResponsiveScrollViewUITests;
-			productReference = 4301D49F1BB7D3F60018C909 /* ResponsiveScrollViewUITests.xctest */;
+			productReference = 4301D49F1BB7D3F60018C909 /* Demo.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4301D47B1BB7D3F60018C909 /* Build configuration list for PBXProject "ResponsiveScrollView" */;
+			buildConfigurationList = 4301D47B1BB7D3F60018C909 /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -233,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4301D47F1BB7D3F60018C909 /* ResponsiveScrollView */,
-				4301D4931BB7D3F60018C909 /* ResponsiveScrollViewTests */,
-				4301D49E1BB7D3F60018C909 /* ResponsiveScrollViewUITests */,
+				4301D47F1BB7D3F60018C909 /* Demo */,
+				4301D4931BB7D3F60018C909 /* DemoTests */,
+				4301D49E1BB7D3F60018C909 /* DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4301D4861BB7D3F60018C909 /* ViewController.swift in Sources */,
-				4302B6721C72050F00160C62 /* UIView+loadFromXibNib.swift in Sources */,
+				43E79C2C1C9AAD9200C00B77 /* UIView+loadFromXibNib.swift in Sources */,
 				4301D4841BB7D3F60018C909 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		4301D4961BB7D3F60018C909 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4301D47F1BB7D3F60018C909 /* ResponsiveScrollView */;
+			target = 4301D47F1BB7D3F60018C909 /* Demo */;
 			targetProxy = 4301D4951BB7D3F60018C909 /* PBXContainerItemProxy */;
 		};
 		4301D4A11BB7D3F60018C909 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4301D47F1BB7D3F60018C909 /* ResponsiveScrollView */;
+			target = 4301D47F1BB7D3F60018C909 /* Demo */;
 			targetProxy = 4301D4A01BB7D3F60018C909 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,11 +419,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = ResponsiveScrollView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = artem.krachulov.ResponsiveScrollView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 			};
 			name = Debug;
 		};
@@ -432,11 +432,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = ResponsiveScrollView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = artem.krachulov.ResponsiveScrollView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 			};
 			name = Release;
 		};
@@ -447,8 +447,8 @@
 				INFOPLIST_FILE = ResponsiveScrollViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = artem.krachulov.ResponsiveScrollViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponsiveScrollView.app/ResponsiveScrollView";
+				PRODUCT_NAME = Demo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
 			name = Debug;
 		};
@@ -459,8 +459,8 @@
 				INFOPLIST_FILE = ResponsiveScrollViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = artem.krachulov.ResponsiveScrollViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResponsiveScrollView.app/ResponsiveScrollView";
+				PRODUCT_NAME = Demo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
 			name = Release;
 		};
@@ -470,7 +470,7 @@
 				INFOPLIST_FILE = ResponsiveScrollViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = artem.krachulov.ResponsiveScrollViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 				TEST_TARGET_NAME = ResponsiveScrollView;
 				USES_XCTRUNNER = YES;
 			};
@@ -482,7 +482,7 @@
 				INFOPLIST_FILE = ResponsiveScrollViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = artem.krachulov.ResponsiveScrollViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Demo;
 				TEST_TARGET_NAME = ResponsiveScrollView;
 				USES_XCTRUNNER = YES;
 			};
@@ -491,7 +491,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4301D47B1BB7D3F60018C909 /* Build configuration list for PBXProject "ResponsiveScrollView" */ = {
+		4301D47B1BB7D3F60018C909 /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4301D4A61BB7D3F60018C909 /* Debug */,
@@ -500,7 +500,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4301D4A81BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "ResponsiveScrollView" */ = {
+		4301D4A81BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4301D4A91BB7D3F60018C909 /* Debug */,
@@ -509,7 +509,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4301D4AB1BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "ResponsiveScrollViewTests" */ = {
+		4301D4AB1BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4301D4AC1BB7D3F60018C909 /* Debug */,
@@ -518,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4301D4AE1BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "ResponsiveScrollViewUITests" */ = {
+		4301D4AE1BB7D3F60018C909 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4301D4AF1BB7D3F60018C909 /* Debug */,
