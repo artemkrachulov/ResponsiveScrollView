@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  ResponsiveScrollView
+//  Responsive scroll view example
 //
-//  Created by Krachulov Artem  on 9/27/15.
-//  Copyright © 2015 Artem Krachulov. All rights reserved.
+//  Created by Artem Krachulov.
+//  Copyright © 2016 Artem Krachulov. All rights reserved.
 //
 
 import UIKit
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     // Load xib to the view
 //    scrollViewContent = (NSBundle.mainBundle().loadNibNamed("View", owner: self, options: nil).first) as! UIView
 		
-		scrollViewContent = UIView.instanceFromNib("View", owner: self, bundle: nil)
+		scrollViewContent = UIView.loadFromNib("View", owner: self, bundle: nil)
 
 //		scrollViewContent = UIScrollView()
 		

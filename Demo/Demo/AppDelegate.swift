@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  ResponsiveScrollView
+//  Responsive scroll view example
 //
-//  Created by Krachulov Artem  on 9/27/15.
-//  Copyright © 2015 Artem Krachulov. All rights reserved.
+//  Created by Artem Krachulov.
+//  Copyright © 2016 Artem Krachulov. All rights reserved.
 //
 
 import UIKit
